@@ -2,6 +2,6 @@ on: push
 
 jobs:
   job1:
-    run-on: ubuntu-latest
-    step:
-    - run: pwd
+    runs-on: ubuntu-latest
+    steps:
+      - run: pwd
