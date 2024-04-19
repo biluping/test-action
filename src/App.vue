@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import axios from 'axios';
 
-axios.get('http://www.chaozhandz.cn:9000/info/all').then(res => {
+axios.get('https://shide-edu-test-api.gorui.com/admin/sys/teacher/myInfo').then(res => {
   console.log(res.data)
 })
 
